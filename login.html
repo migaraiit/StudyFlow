@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/style2.css">
+        <title>
+            Account Login
+        </title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="form-container">
+                <div class="form" id="loginform">   
+                    <h2>Login</h2>
+                    <form action="/login" method="POST">
+                        <div class="form-group">
+                            <label for="login-username">Username : </label>
+                            <input type="text" id="login-username" name="username" required>
+                        </div>
+                        <div class="form-group">
+                            <lable for="login-password">Passowrd : </lable>
+                            <input type="password" id="login-password" name="password" required>
+                        </div>
+                        <button type="submit">Login</button>
+                    </form>
+                    <h5>Don't have an account? <a href="signup.html"><span>Sign Up</span></a></h5>
+                </div>
+
+            </div>
+
+        </div>
+        <script src="/js/scripts.js"></script>
+    </body>
+</html>

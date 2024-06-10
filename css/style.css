@@ -271,7 +271,7 @@ a:focus {
 #phone {
   width: 75%;
   height: 75%;
-  margin-right: 1cm;
+  margin-right: 2cm;
 }
 
   /*
@@ -1024,7 +1024,7 @@ a:focus {
 
 .footer_section p {
   color: #00204a;
-  padding: 25px 0;
+  padding: 10px 0;
   margin: 0;
 }
 
@@ -1119,7 +1119,7 @@ a { text-decoration: none; }
 	width: 580px;
 	background: #fff;
 	border-radius: 20px;
-	visibility:inherit
+	visibility:inherit;
 	transform: scale(.9);
 	opacity: 0;
 	overflow: hidden;
@@ -1457,6 +1457,8 @@ a { text-decoration: none; }
 	}
 }
 
+/*# sourceMappingURL=style.css.map */
+
 /*new*/
 /*---Course Section---*/
 
@@ -1578,5 +1580,3 @@ h3{
   color: #fff;
 }
   */
-
-/*# sourceMappingURL=style.css.map */
